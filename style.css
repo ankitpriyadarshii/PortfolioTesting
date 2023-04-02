@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Rubik:ital@1&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(178, 174, 174);
+    width: 434px;
+    font-family: 'Source Code Pro', monospace;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 40px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 40px 0;
+    font-weight: bold;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /*background-color: rgb(199, 14, 219);*/
+    height: 55vh;
+    width: 80vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 60px;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Fira Sans', sans-serif" ;
+}
+
+.about{
+    font-size: 40px;
+}
+
+.moreAbout{
+    font-size: 25px;
+    margin-top: 23px;
+    font-family: "Fira Sans', sans-serif" ;
+}
+
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    margin-top: 34px ;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+.devPic img{
+    width: 400px;
+    height: 291 px;
+    border-radius: 25%;
+}
+
+.contactMe{
+    font-family: "Fira Sans', sans-serif";
+}
+
+.contactMe h1{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin: 20px 90px;
+    font-weight: bold;
+    font-size: xx-larger;
+    font-style: italic;
+}
+
+.contactMe p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin: 20px 90px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+[class^="icon"]{
+    display:flex;
+    margin:20px;
+    justify-content:space-between;
+}
+
+
+.icon-Email{
+    height: 10px;
+    width: 20px;
+    position: relative;
+    margin: 65px 95px;
+}
+.icon-LinkedIn{
+    height: 10px;
+    width: 20px;
+    margin: -70px 400px;
+}
+
+.icon-GitHub{
+    height: 10px;
+    width: 20px;
+    margin: -236px 95px;
+}
+
+.icon-Phone{
+    height: 10px;
+    width: 20px;
+    position: relative;
+    margin: 224px 400px;
+}
